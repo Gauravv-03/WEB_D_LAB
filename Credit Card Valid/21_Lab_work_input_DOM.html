@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <span id="heading">Enter Your Card Detail</span>
+            <br>
+
+            <form action="" onsubmit="return valid()">
+                Card Type <select id="card">
+                    <option value="Master Card">Master Card</option>
+                    <option value="Visa">Visa</option>
+                    <option value="American Express">American Express</option>
+                </select>
+                <br>
+                <!-- Card Type <input type="text" id="card" placeholder="enter Card type"  > -->
+                Prefix : <input type="number" id="prefix" placeholder="Enter Prefix"><br>
+                Length :<input type="number" id="length" placeholder="Enter Length"><br>
+                <br>
+                <input type="submit" id="btn">
+                <br>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
